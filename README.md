@@ -127,6 +127,7 @@ If you have a feature request or suggestion raise a [Ticket](https://github.com/
 * Support it by clicking the :star: button on the upper right of this page. :v:
 
 ### That's it for now
+For any query or questions you can access me at below mediums.
 
 ### Contact - Let's connect and share knowledge
 - [Twitter](https://twitter.com/balsikandar)

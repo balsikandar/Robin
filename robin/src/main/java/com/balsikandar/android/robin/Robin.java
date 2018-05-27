@@ -50,6 +50,7 @@ public class Robin {
      * pair in HashMap
      *
      * @param intent Intent to get bundle data from
+     * @return get hashmap for intent bundle data
      */
     public static HashMap<String, String> getDataAsMap(Intent intent) {
         return LoggerUtil.getDataAsMap(intent);
@@ -60,6 +61,7 @@ public class Robin {
      * pair in HashMap
      *
      * @param bundle Intent to get bundle data from
+     * @return get hashmap for bundle input data
      */
     public static HashMap<String, String> getDataAsMap(Bundle bundle) {
         return LoggerUtil.getDataAsMap(bundle);
@@ -80,7 +82,7 @@ public class Robin {
      * {@code Robin.start(this, true)}. On passing false for 'enableCallbacks' will not
      * trigger any screenViews and activity lifecycle callbacks.
      *
-     * @param application      application context
+     * @param application     application context
      * @param enableCallbacks use this to enable and disable ScreenViews and Activity Callbacks
      */
     public static void start(Application application, boolean enableCallbacks) {

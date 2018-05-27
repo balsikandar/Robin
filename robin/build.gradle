@@ -35,3 +35,5 @@ dependencies {
     //Gson dependency
     implementation 'com.google.code.gson:gson:2.8.2'
 }
+
+apply from: 'upload.gradle'

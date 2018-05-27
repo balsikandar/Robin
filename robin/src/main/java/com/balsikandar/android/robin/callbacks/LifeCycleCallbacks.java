@@ -14,6 +14,6 @@ package com.balsikandar.android.robin.callbacks;
  */
 public interface LifeCycleCallbacks {
 
-    void breadCrumps(String name, String callback);
+    void breadCrumps(String className, String callback);
 
 }

@@ -18,6 +18,6 @@ package com.balsikandar.android.robin.callbacks;
  */
 public interface ScreenViewCallback {
 
-    void onScreenShown(String className, String customScreenView);
+    void onScreenShown(String className, String customScreenName);
 
 }

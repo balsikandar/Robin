@@ -121,7 +121,7 @@ Use Below APIs to get bundle data as HashMap key-value pairs
  
  
 ### Contributing to this Repo
-If you have a feature request or suggestion. raise a [Ticket](https://github.com/balsikandar/Robin/issues) here. You can also contribute just create a pull request and dive in.
+If you have a feature request or suggestion raise a [Ticket](https://github.com/balsikandar/Robin/issues) here. You can also contribute just create a pull request and dive in.
  
 ### Find this project useful ? :heart:
 * Support it by clicking the :star: button on the upper right of this page. :v:

@@ -119,6 +119,21 @@ Use Below APIs to get bundle data as HashMap key-value pairs
  
  **tagName**- provide this field to filter log in LogCat and if you don't provide this tag **Robin/** will be used.
  
+ 
+### Contributing to this Repo
+If you have a feature request or suggestion. raise a [Ticket](https://github.com/balsikandar/Robin/issues) here. You can also contribute just create a pull request and dive in.
+ 
+### Find this project useful ? :heart:
+* Support it by clicking the :star: button on the upper right of this page. :v:
+
+### That's it for now
+
+### Contact - Let's connect and share knowledge
+- [Twitter](https://twitter.com/balsikandar)
+- [Github](https://github.com/balsikandar)
+- [Medium](https://medium.com/@balsikandar.nsit)
+- [Facebook](https://www.facebook.com/balsikandar)
+ 
  ## License
  ```
  MIT License

@@ -55,7 +55,7 @@ Robin.start(this, false)
 
 ### The other moves of Robin
 
-##### 1- Tracking screen views of pages which user visits using lines like below in all classes is more of an effort
+#### 1- Tracking screen views
 
 ```
 AnalyticsClient.sendView(AppConstants.ScreenViewLabel);
@@ -79,7 +79,7 @@ Define a global variable **screenView** in your Activity/Fragment with label val
  private String screenView = "RobinSampleHomePage";
  ```
 
-##### 2- Retrace user actions before a Crash
+#### 2- Retrace user actions before a Crash
 
 At times we get stacktrace log where we have no idea of where it's originated and it's not even possible to figure out in which class crash occurred. 
 
@@ -98,7 +98,7 @@ To do this, implement **LifeCycleCallbacks** interface in your application class
  **name**: is Activity/Fragment class name,
  **callback**: is lifecycle callback method name
 
-##### 3- Transform Bundle data to HashMap
+#### 3- Transform Bundle data to HashMap
 
 Use Below APIs to get bundle data as HashMap key-value pairs
  

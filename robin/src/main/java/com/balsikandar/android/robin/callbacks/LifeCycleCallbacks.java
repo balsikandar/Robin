@@ -12,7 +12,7 @@ package com.balsikandar.android.robin.callbacks;
  * <p>
  * It'll be highly useful for crash logs where we can't determine point of origin
  */
-public interface ApplicationEventCallbacks {
+public interface LifeCycleCallbacks {
 
     void breadCrumps(String name, String callback);
 

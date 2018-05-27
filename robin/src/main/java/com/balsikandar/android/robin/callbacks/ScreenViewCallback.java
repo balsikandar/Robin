@@ -16,8 +16,8 @@ package com.balsikandar.android.robin.callbacks;
  * You can use these params to log screen view of your app that user visited
  * using your analytics client
  */
-public interface ScreenViewsCallbacks {
+public interface ScreenViewCallback {
 
-    void screenShown(String className, String customScreenView);
+    void onScreenShown(String className, String customScreenView);
 
 }

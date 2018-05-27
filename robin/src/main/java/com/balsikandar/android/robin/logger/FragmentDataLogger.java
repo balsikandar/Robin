@@ -6,9 +6,9 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.view.View;
 
-import com.balsikandar.android.robin.callbacks.ApplicationEventCallbacks;
 import com.balsikandar.android.robin.callbacks.FragmentLifeCycleListener;
-import com.balsikandar.android.robin.callbacks.ScreenViewsCallbacks;
+import com.balsikandar.android.robin.callbacks.LifeCycleCallbacks;
+import com.balsikandar.android.robin.callbacks.ScreenViewCallback;
 
 /**
  * Created by bali on 27/05/18.
@@ -16,8 +16,8 @@ import com.balsikandar.android.robin.callbacks.ScreenViewsCallbacks;
 
 public class FragmentDataLogger extends FragmentLifeCycleListener {
 
-    private ScreenViewsCallbacks viewsCallback;
-    private ApplicationEventCallbacks eventCallbacks;
+    private ScreenViewCallback viewsCallback;
+    private LifeCycleCallbacks eventCallbacks;
 
     FragmentDataLogger() {
         //default constructor
@@ -28,8 +28,8 @@ public class FragmentDataLogger extends FragmentLifeCycleListener {
     }
 
     private void initialiseCallbacks(Context context) {
-        this.viewsCallback = (ScreenViewsCallbacks) context;
-        this.eventCallbacks = (ApplicationEventCallbacks) context;
+        this.viewsCallback = (ScreenViewCallback) context;
+        this.eventCallbacks = (LifeCycleCallbacks) context;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class FragmentDataLogger extends FragmentLifeCycleListener {
     private void sendScreenViews(Fragment fragment) {
         if (viewsCallback != null) {
             String customScreenView = LoggerUtil.getUserProviedScreenName(fragment);
-            viewsCallback.screenShown(fragment.getClass().getSimpleName(), customScreenView);
+            viewsCallback.onScreenShown(fragment.getClass().getSimpleName(), customScreenView);
         }
     }
 

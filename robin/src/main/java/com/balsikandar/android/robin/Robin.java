@@ -27,7 +27,7 @@ public class Robin {
      *
      * @param intent  Intent carrying bundle data
      * @param tagName Field to search for printed Log in LogCat, If passed nothing
-     *                default {@param tagName "Robin"} will be used
+     *                default tagName "Robin" will be used
      */
     public static void logData(Intent intent, String tagName) {
         LoggerUtil.logData(intent, tagName);
@@ -39,7 +39,7 @@ public class Robin {
      *
      * @param bundle  Bundle carrying data
      * @param tagName Field to search for printed Log in LogCat, If passed nothing
-     *                default {@param tagName "Robin"} will be used
+     *                default tagName "Robin" will be used
      */
     public static void logData(Bundle bundle, String tagName) {
         LoggerUtil.logData(bundle, tagName);
@@ -77,7 +77,7 @@ public class Robin {
 
     /**
      * pass application context to intialise this library as
-     * {@code Robin.start(this, true)}. On passing false for {@param enableCallbacks} will not
+     * {@code Robin.start(this, true)}. On passing false for 'enableCallbacks' will not
      * trigger any screenViews and activity lifecycle callbacks.
      *
      * @param application      application context

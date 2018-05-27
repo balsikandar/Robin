@@ -5,7 +5,7 @@ package com.balsikandar.android.robin.callbacks;
  */
 
 /**
- * An interface to get the {@param className} & {@param customScreenView} of newly created
+ * An interface to get the className & customScreenView of newly created
  * activity or fragment.
  * <p>
  * Declare field {@code screenView} in your activity or fragment.
@@ -18,6 +18,6 @@ package com.balsikandar.android.robin.callbacks;
  */
 public interface ScreenViewCallback {
 
-    void onScreenShown(String className, String customScreenView);
+    void onScreenShown(String className, String customScreenName);
 
 }

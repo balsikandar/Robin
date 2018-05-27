@@ -98,7 +98,7 @@ public class LoggerUtil {
     }
 
     static String getUserProviedScreenName(Fragment fragment) {
-        Field field = null;
+        Field field;
         try {
             field = fragment.getClass().getDeclaredField("screenView");
 
@@ -119,6 +119,13 @@ public class LoggerUtil {
     private static boolean exists(Object value) {
         return value != null;
     }
+
+
+    /**
+     * Below methods provides bundle or intent data logging
+     * <p>
+     * Methods to transform bundle to hashmap and return
+     */
 
     static void logBundleDataOfActivity(Activity activity) {
 

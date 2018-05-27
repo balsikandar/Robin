@@ -66,3 +66,7 @@ fastlane/readme.md
 app/libs/
 robin/libs/
 robin/src/main/res/drawable/
+
+
+/captures
+/.idea

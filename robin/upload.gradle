@@ -29,7 +29,7 @@ def siteUrl = 'https://github.com/balsikandar/Robin'
 def gitUrl = 'https://github.com/balsikandar/Robin.git'
 
 group = "com.balsikandar.android"
-version = '0.1.0'
+version = '0.1.1'
 
 install {
     repositories.mavenInstaller {

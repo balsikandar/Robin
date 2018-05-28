@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">RobinSample</string>
-    <string name="robin_msg">In LogCat use TAG \'Robin\' for bundle Data logs\nUse \'Screen\' TAG for screen Views\nUse \'Bread crumps` for Activity/Fragment lifecycle Callbacks</string>
+    <string name="robin_msg">1- In LogCat use TAG \'Robin\' for bundle Data logs\n2- Use \'Screen\' TAG for screen Views\n3- Use \'Bread crumps` for Activity/Fragment lifecycle Callbacks</string>
     <string name="title">This is a sample app demonstrating Robin Use case</string>
 </resources>

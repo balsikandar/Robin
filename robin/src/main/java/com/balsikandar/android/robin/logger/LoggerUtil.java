@@ -3,6 +3,7 @@ package com.balsikandar.android.robin.logger;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
 import android.util.Log;
@@ -10,7 +11,6 @@ import android.util.Log;
 import com.google.gson.Gson;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Set;
 
@@ -22,25 +22,14 @@ public class LoggerUtil {
 
     private static final String TAG = "Robin/ ";
 
-    private static HashMap<String, String> getDataFromBundle(Bundle bundle, String tagName, boolean returnKeyValueData) {
+    private static HashMap<String, String> getDataFromBundle(@NonNull Bundle bundle, @NonNull String tagName, boolean returnKeyValueData) {
         try {
 
-            Method method = bundle.getClass().getMethod("keySet");
-
-            Set<String> keySet;
-
-            if (!(method.invoke(bundle) instanceof Set<?>)) return null;
-
-            method.setAccessible(true);
-
-            keySet = (Set<String>) method.invoke(bundle);
+            Set<String> keySet = bundle.keySet();
 
             Gson gson = new Gson();
-            HashMap<String, String> keyValueData = null;
 
-            if (returnKeyValueData) {
-                keyValueData = new HashMap<>();
-            }
+            HashMap<String, String> keyValueData = returnKeyValueData ? new HashMap<String, String>() : null;
 
             for (String key : keySet) {
 

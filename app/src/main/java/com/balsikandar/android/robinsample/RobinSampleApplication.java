@@ -20,7 +20,7 @@ public class RobinSampleApplication extends Application implements ScreenViewCal
 
     @Override
     public void breadCrumps(String className, String callback) {
-        Log.e("Screen", className + " | " + callback);
+        Log.e("Bread Crumps", className + " | " + callback);
         //Crashlytics.log(name + " | " + callback);
     }
 

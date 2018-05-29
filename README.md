@@ -33,13 +33,13 @@ So i thought let's do something about this.
 Use below dependency to add it in your app
 
 ```
-compile 'com.balsikandar.android:robin:0.1.0'
+compile 'com.balsikandar.android:robin:0.1.2'
 ```
 
 If you only want to use it in your debug app then use debugCompile dependency
 
 ```
-debugCompile 'com.balsikandar.android:robin:0.1.0'
+debugCompile 'com.balsikandar.android:robin:0.1.2'
 ```
 
 ### Robin in action

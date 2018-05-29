@@ -28,8 +28,12 @@ public class FragmentDataLogger extends FragmentLifeCycleListener {
     }
 
     private void initialiseCallbacks(Context context) {
-        this.viewsCallback = (ScreenViewCallback) context;
-        this.eventCallbacks = (LifeCycleCallbacks) context;
+        if (context instanceof ScreenViewCallback) {
+            this.viewsCallback = (ScreenViewCallback) context;
+        }
+        if (context instanceof LifeCycleCallbacks) {
+            this.eventCallbacks = (LifeCycleCallbacks) context;
+        }
     }
 
     @Override

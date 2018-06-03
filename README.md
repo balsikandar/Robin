@@ -14,6 +14,8 @@
 
 One of my friend said this and it's totally true. That's why i always try to log essential data.
 
+#### Here is an [article](https://medium.com/mindorks/debugging-in-android-with-robin-logging-essential-data-de3ecac9919f) related to this project.
+
 ## Bundle
 Definition: A mapping from String values to various Parcelable types. Bundle is generally used for passing data between various activities of android. 
 
@@ -131,6 +133,10 @@ If you have a feature request or suggestion raise a [Ticket](https://github.com/
 
 ### That's it for now
 For any query or questions you can access me at below mediums.
+
+### TODO
+Add application enter foreground and background callbacks
+Add logic to calculate the size of bundle in transaction.
 
 ### Contact - Let's connect and share knowledge
 - [Twitter](https://twitter.com/balsikandar)

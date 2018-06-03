@@ -2,6 +2,7 @@
 
 # Robin
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Dev%20Digest-191-brightgreen.svg?style=flat)](https://www.androiddevdigest.com/digest-191/)
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Robin-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/6980)
 [![API](https://img.shields.io/badge/API-15%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=15)
 [ ![Download](https://api.bintray.com/packages/balsikandarnsit/maven/Robin/images/download.svg) ](https://bintray.com/balsikandarnsit/maven/Robin/_latestVersion)
